@@ -1,0 +1,14 @@
+#root
+GET http://localhost:3000/
+
+#Tareadas
+GET http://localhost:3000/tarefas
+
+# Criar
+POST http://localhost:3000/tarefas
+content-type: application/json
+
+{
+    "titulo": "dfsdfds",
+    "concluido": false
+}
